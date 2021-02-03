@@ -21,6 +21,11 @@ public class Test {
             count++;
         }
         System.out.println("恭喜你，猜对了！！！正确答案是："+data+"。共猜了"+count+"次");
+        display();
+    }
+
+    public static void display(){
+        System.out.println("This is a new display method.");
     }
 
 }
